@@ -1,0 +1,153 @@
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.wrapper {
+    max-width: 800px;
+
+}
+
+/* This is all you. */
+
+.header {
+    background-color: #ddd;
+    padding: 20px;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+/* This is all you. */
+
+.header {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Main content styles */
+main {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bio {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.bio-image {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.bio-content {
+  text-align: left;
+  padding: 1rem;
+}
+
+.posts {
+  max-width: 35rem; /* Adjust as needed */
+  margin: auto; /* Centers the article */
+  font-size: 1.1rem; /* Slightly larger for readability */
+  line-height: 1.6; /* Optimal for reading */
+}
+
+.posts-title {
+  font-size: 32px;
+ }
+
+.posts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.posts-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.posts-link {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  text-decoration: none;
+}
+
+.posts-date {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.posts-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.posts-excerpt {
+  font-size: 16px;
+  margin: 10px 0 0;
+}
+
+article {
+  max-width: 35rem; /* Adjust as needed */
+  margin: auto; /* Centers the article */
+  font-size: 1.1rem; /* Slightly larger for readability */
+  line-height: 1.6; /* Optimal for reading */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
